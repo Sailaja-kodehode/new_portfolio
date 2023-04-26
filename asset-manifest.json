@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Sailaja-kodehode/new_portfolio/static/css/main.6ea7b107.css",
+    "main.js": "/Sailaja-kodehode/new_portfolio/static/js/main.0678691c.js",
+    "static/js/787.8d4efb73.chunk.js": "/Sailaja-kodehode/new_portfolio/static/js/787.8d4efb73.chunk.js",
+    "static/media/Christmas1.png": "/Sailaja-kodehode/new_portfolio/static/media/Christmas1.dce4c1b8f044e7c64dec.png",
+    "static/media/Sailaja_CV_Feb_2023.pdf": "/Sailaja-kodehode/new_portfolio/static/media/Sailaja_CV_Feb_2023.b67627092f05c1d511c1.pdf",
+    "static/media/streaming1.png": "/Sailaja-kodehode/new_portfolio/static/media/streaming1.f5732d99d372db5d5cc0.png",
+    "static/media/pokemon.png": "/Sailaja-kodehode/new_portfolio/static/media/pokemon.a4e3a9fa293ab53b060f.png",
+    "static/media/img1.jpg": "/Sailaja-kodehode/new_portfolio/static/media/img1.e8737d1dcdcfc91955d3.jpg",
+    "static/media/logo.png": "/Sailaja-kodehode/new_portfolio/static/media/logo.799073abe2ff6069774d.png",
+    "static/media/quiz1.png": "/Sailaja-kodehode/new_portfolio/static/media/quiz1.573dbd0341a8b2d44466.png",
+    "index.html": "/Sailaja-kodehode/new_portfolio/index.html",
+    "main.6ea7b107.css.map": "/Sailaja-kodehode/new_portfolio/static/css/main.6ea7b107.css.map",
+    "main.0678691c.js.map": "/Sailaja-kodehode/new_portfolio/static/js/main.0678691c.js.map",
+    "787.8d4efb73.chunk.js.map": "/Sailaja-kodehode/new_portfolio/static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ea7b107.css",
+    "static/js/main.0678691c.js"
+  ]
+}
