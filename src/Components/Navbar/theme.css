@@ -1,0 +1,10 @@
+.dark {
+  background-color: #7f5539;
+  color: #ede0d4;
+  border-radius: 50px;
+}
+.light {
+  background-color: #ede0d4;
+  color: #7f5539;
+  border-radius: 50px;
+}

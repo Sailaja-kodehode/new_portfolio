@@ -1,0 +1,103 @@
+/* Projects page start */
+.projects {
+  height: 100vh;
+}
+.projects_container {
+  padding-bottom: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  background: #b08968;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.projects_title {
+  padding: 20px;
+  text-align: center;
+  color: #7f5539;
+  font-size: 24px;
+}
+.projects_nav {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 20px auto;
+  margin-bottom: 10px;
+}
+.projects_button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 52%;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: #7f5539;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.projects_title:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.projects_button-active {
+  background-color: white;
+  color: #7f5539;
+}
+.projects_button :hover {
+  color: #3a4854;
+  box-shadow: 5px 5px 5px
+    linear-gradient(180deg, gray 0%, rgba(102, 248, 248, 0) 100%);
+  border-radius: 5px;
+  opacity: 90%;
+}
+/* Container for only single project */
+
+.project_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects_link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #7f5539;
+}
+.projects_image {
+  display: flex;
+  width: 300px;
+  max-height: 150px;
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 1px solid #7f5539;
+  margin-bottom: 20px;
+}
+.projects_description {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #7f5539;
+  color: whitesmoke;
+  list-style: none;
+}
+
+@media screen and (max-width: 400px) {
+  .projects_nav_button {
+    padding: 15px;
+    font-size: 10px;
+  }
+
+  .projects_direction {
+    font-size: 10px;
+  }
+}
