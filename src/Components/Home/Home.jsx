@@ -20,7 +20,7 @@ export default function Home() {
 
         <div className="home_container_text">
           <h1 className="home_title">Sailaja</h1>
-          <h2 className="home_subtitle">Junior frontend utvikler</h2>
+          <h2 className="home_subtitle">Junior Frontend Utvikler</h2>
           {/* two Buttons to link CV and Contact page */}
           <div className="button-link">
             <button className="home_button">

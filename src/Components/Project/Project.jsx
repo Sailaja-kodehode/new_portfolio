@@ -56,6 +56,7 @@ function Projects() {
     },
   ];
   const [imgSet, setImgSet] = useState(0);
+
   function projectSelect(index) {
     setImgSet(() => index);
   }

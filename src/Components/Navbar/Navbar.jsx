@@ -12,6 +12,17 @@ import Image from "./../Assets/Profile/logo.png";
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(true);
+  useEffect(() => {
+    window.innerWidth <= 600 && setNavbar(false);
+    window.addEventListener("", () => {
+      window.innerWidth <= 600 && setNavbar(false);
+    });
+    return () =>
+      window.removeEventListener("", () => {
+        window.innerWidth <= 600 && setNavbar(false);
+      });
+  }, []);
+
   return (
     <div className="nav_container">
       <a href="index.html" className="nav_logo">
@@ -36,7 +47,7 @@ export default function Navbar() {
             <li className="nav_ul_li">
               <a className="nav_ul_li_a" href="#about">
                 <BsPerson />
-                Om meg
+                Om Meg
               </a>
             </li>
           )}
