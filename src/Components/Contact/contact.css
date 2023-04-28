@@ -1,6 +1,9 @@
 /* Contact page start*/
+.contact {
+  padding: 80px;
+}
 .contact_container {
-  height: 65vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +51,14 @@ h2 {
 }
 
 @media screen and (max-width: 800px) {
+  .contact_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 200px;
+  }
   .contact_mail {
     display: none;
   }

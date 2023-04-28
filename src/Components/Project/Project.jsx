@@ -106,15 +106,15 @@ function Projects() {
         <img src={img1} alt="" className="projects_image" />
         <ul className="projects_links">
           {aboutProject && (
-            <li className="projects_description">
+            <li className="projects_direction">
               <a
                 href={aboutProject}
                 target="_blank"
                 rel="noreferrer"
                 className="projects_link"
               >
-                <FcBriefcase />
-                <p className="projects_direction">
+                <p className="projects_description">
+                  <FcBriefcase />
                   Description :{aboutProject}{" "}
                 </p>
               </a>
@@ -126,11 +126,10 @@ function Projects() {
                 href={github}
                 target="_blank"
                 rel="noreferrer"
-                className="projects_link"
+                className="project_link"
               >
                 <BsGithub />
-
-                <p className="projects_direction">github</p>
+                <h4 className="projects_direction">Github</h4>
               </a>
             </li>
           )}
@@ -140,10 +139,10 @@ function Projects() {
                 href={figma}
                 target="_blank"
                 rel="noreferrer"
-                className="projects_link"
+                className="project_link"
               >
                 <FaFigma />
-                <p className="projects_direction">figmaDesign</p>
+                <h4 className="projects_direction">FigmaDesign</h4>
               </a>
             </li>
           )}

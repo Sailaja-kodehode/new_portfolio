@@ -3,12 +3,12 @@ import Theme from "./Theme";
 import "./navBar.css";
 
 import { FaHome } from "react-icons/fa";
-import { FaHamburger } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { BsPerson } from "react-icons/bs";
 import { MdOutlineBrightness7 } from "react-icons/md";
 import { BsTelephoneInbound } from "react-icons/bs";
-import { BsBriefcaseFill } from "react-icons/bs";
-import Image from "./../Assets/Profile/logo.png";
+// import { BsBriefcaseFill } from "react-icons/bs";
+import Image from "./../Assets/Profile/logo1.png";
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(true);
@@ -51,14 +51,14 @@ export default function Navbar() {
               </a>
             </li>
           )}
-          {navbar && (
+          {/* {navbar && (
             <li className="nav_ul_li">
               <a className="nav_ul_li_a" href="#skills">
                 <BsBriefcaseFill />
                 Ferdigheter
               </a>
             </li>
-          )}
+          )} */}
           {navbar && (
             <li className="nav_ul_li">
               <a className="nav_ul_li_a" href="#projects">
@@ -80,7 +80,7 @@ export default function Navbar() {
             className="toggle"
             onClick={() => setNavbar((prevState) => !prevState)}
           >
-            <FaHamburger className="toggle" />
+            <GiHamburgerMenu className="toggle" />
           </li>
         </ul>
       </nav>

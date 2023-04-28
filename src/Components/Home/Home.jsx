@@ -1,9 +1,17 @@
 // Imports
 import React from "react";
-import photo from "./../Assets/Profile/img1.jpg";
+import photo from "./../Assets/Profile/img4.png";
+import html from "./../Assets/Gallery/Skills/html-5.png";
+import css from "./../Assets/Gallery/Skills/css-3.png";
+import js from "./../Assets/Gallery/Skills/java-script.png";
+import react from "./../Assets/Gallery/Skills/science.png";
+import figma from "./../Assets/Gallery/Skills/figma.png";
+import node from "./../Assets/Gallery/Skills/nodejs.png";
+import sql from "./../Assets/Gallery/Skills/sql-server.png";
+import github from "./../Assets/Gallery/Skills/github (1).png";
+
 import cv from "./../Assets/CV/Sailaja_CV_Feb_2023.pdf";
 import "./home.css";
-import "../About/about.css";
 
 //  Homepage
 export default function Home() {
@@ -36,20 +44,43 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section className="about" id="about">
-        <div className="about_container">
-          {/* a small description about my self */}
-          <h1 className="about_container_title">Om meg</h1>
-          <div className="about_container_info ">
-            Jeg er en kreativ frontend utvikler, og jeg er veldig lidenskapelig
-            og dedikert i arbeidet. Akkurat nå lærer jeg frontend-utviklig på
-            kodehode. Jeg synes faget er veldig spennende, og ser frem til å
-            lære. Jeg er en ambisiøs kvinne, frontend utvikling for meg er
-            kreativite problemløsning og jeg lidenskapelig for ny teknologi. Jeg
-            er interessert i HTML, CSS og design. Jeg har kunnskap om
-            JavaScript, React også Backend.
-          </div>
-        </div>
+
+      <h2 className="section_title">Ferdigheter</h2>
+
+      <section className="skills_container">
+        {/* HTML5 */}
+        <figure>
+          <img className="skills_image" src={html} alt="my pic" />
+          <figcaption> HTML5</figcaption>
+        </figure>
+        <figure>
+          <img className="skills_image" src={css} alt="my pic" />
+          <figcaption> CSS</figcaption>
+        </figure>
+        <figure>
+          <img className="skills_image2" src={js} alt="my pic" />
+          <figcaption> Java Script</figcaption>
+        </figure>
+        <figure>
+          <img className="skills_image" src={react} alt="my pic" />
+          <figcaption> React</figcaption>
+        </figure>
+        <figure>
+          <img className="skills_image" src={sql} alt="my pic" />
+          <figcaption> Sql</figcaption>
+        </figure>
+        <figure>
+          <img className="skills_image" src={node} alt="my pic" />
+          <figcaption>Node Js</figcaption>
+        </figure>
+        <figure>
+          <img className="skills_image" src={figma} alt="my pic" />
+          <figcaption>Figma</figcaption>
+        </figure>
+        <figure>
+          <img className="skills_image" src={github} alt="my pic" />
+          <figcaption>Github</figcaption>
+        </figure>
       </section>
     </header>
   );
