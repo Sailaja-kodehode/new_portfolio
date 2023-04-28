@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h2 className="section_title">Ferdigheter</h2>
+      {/* <h2 className="section_title">Ferdigheter</h2> */}
 
       <section className="skills_container">
         {/* HTML5 */}
