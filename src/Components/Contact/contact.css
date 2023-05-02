@@ -1,7 +1,8 @@
 /* Contact page start*/
 .contact {
-  padding: 80px;
+  padding-top: 150px;
 }
+
 .contact_container {
   height: 100vh;
   display: flex;
@@ -50,14 +51,9 @@ h2 {
   gap: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .contact_container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-top: 200px;
+    padding: 100px;
   }
   .contact_mail {
     display: none;

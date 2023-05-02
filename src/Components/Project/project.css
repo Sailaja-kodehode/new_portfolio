@@ -1,11 +1,10 @@
 /* Projects page start */
 .projects {
   height: 100vh;
-  padding-top: 100px;
+  padding: 100px 0px;
 }
 .projects_container {
-  /* margin-top: 40px; */
-  background-color: #b08968;
+  /* background-color: #b08968; */
   color: whitesmoke;
   border-radius: 30px;
   padding: 40px;
@@ -107,7 +106,11 @@
   list-style: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
+  .projects {
+    height: 100vh;
+    padding: 100px 0px;
+  }
   .projects_nav_button {
     padding: 15px;
     font-size: 10px;
@@ -115,6 +118,11 @@
 
   .projects_direction {
     font-size: 10px;
+  }
+  .projects_image {
+    display: flex;
+    width: 200px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 1024px) {
