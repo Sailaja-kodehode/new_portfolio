@@ -33,7 +33,7 @@ export default function Home() {
           <div className="button-link">
             <button className="home_button">
               <a href="#contact" className="link">
-                Hei!!
+                Kontakt
               </a>
             </button>
             <button className="home_button">
@@ -58,7 +58,7 @@ export default function Home() {
           <figcaption> CSS</figcaption>
         </figure>
         <figure>
-          <img className="skills_image2" src={js} alt="my pic" />
+          <img className="skills_image" src={js} alt="my pic" />
           <figcaption> Java Script</figcaption>
         </figure>
         <figure>

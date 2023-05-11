@@ -1,5 +1,6 @@
 import About from "./Components/About/About";
-import Navbar from "./Components/Navbar/Navbar";
+// import Nav from "./Components/Navbar/Nav";
+import Nav from "./Components/Navbar/Nav";
 import "./index.css";
 import Home from "./Components/Home/Home";
 import Contact from "./Components/Contact/Contact1";
@@ -10,7 +11,7 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <Home />
       <About />
       {/* <Skill /> */}

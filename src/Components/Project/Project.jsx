@@ -36,14 +36,16 @@ function Projects() {
       github: "https://github.com/Sailaja-kodehode/pokemon.git",
       figma: "",
       aboutProject:
-        " Pokemon Api request,display,view pokemon index,detailed Card and buttons(home,next,pre and search). ",
+        "Pokemon Api-forespørsel, visning, se pokémonindeks, detaljert kort og knapper (hjem, neste, før og søk)",
+      // " Pokemon Api request,display,view pokemon index,detailed Card and buttons(home,next,pre and search). ",
     },
     {
       projectName: "Streaming",
       img1: StreamingImg1,
       figma:
         "https://www.figma.com/file/cjoaVt77sDyxCIwvXOQ2w6/streamingSailaja?node-id=0%3A1&t=u6EmTulzmdwe9Jya-0",
-      aboutProject: " Figma design for  NRK streaming platform. ",
+      aboutProject: " Figma design for NRK strømmeplattform. ",
+      // " Figma design for  NRK streaming platform. ",
     },
     {
       projectName: "Solar Quiz",
@@ -52,7 +54,8 @@ function Projects() {
       figma:
         "https://www.figma.com/file/EG0HAnVadfGMGMQDkvoX8y/Design-quiz-site?node-id=127%3A102&t=DtfxwHRflpvvY3UF-0",
       aboutProject:
-        " It's, a group project we have done in Autumn holidays Quiz app which includes registration page,questionary n result page  ",
+        "Det er et gruppeprosjekt vi har gjort i Autumn holidays Quiz-app som inkluder registrerings, spørreskjema og resultat",
+      // " It's, a group project we have done in Autumn holidays Quiz app which includes registration page,questionary n result page  ",
     },
   ];
   const [imgSet, setImgSet] = useState(0);
@@ -64,7 +67,7 @@ function Projects() {
   const { img1, projectName, aboutProject, github, figma } = projects[imgSet];
   return (
     <section className="projects" id="projects">
-      <h2 className="projects_title">Projects</h2>
+      <h2 className="projects_title"> Prosjekter</h2>
       <div className="projects_container">
         {/* when we click on project name it will active the project Name n display the projects_links n project description */}
         <div className="projects_nav">
@@ -103,20 +106,15 @@ function Projects() {
           </button>
         </div>
         {/*  */}
+
         <img src={img1} alt="" className="projects_image" />
         <ul className="projects_links">
           {aboutProject && (
             <li className="projects_direction">
-              <a
-                href={aboutProject}
-                target="_blank"
-                rel="noreferrer"
-                className="projects_link"
-              >
-                <p className="projects_description">
-                  <FcBriefcase />
-                  Description :{aboutProject}{" "}
-                </p>
+              <a href={aboutProject} target="_blank" rel="noreferrer">
+                {/* <p className="projects_description"> */}
+                <FcBriefcase />
+                Description: {aboutProject} {/* </p> */}
               </a>
             </li>
           )}
@@ -142,12 +140,14 @@ function Projects() {
                 className="project_link"
               >
                 <FaFigma />
-                <h4 className="projects_direction">FigmaDesign</h4>
+                <h4 className="projects_direction">Figma</h4>
               </a>
             </li>
           )}
         </ul>
       </div>
+      {/* </div> */}
+      {/* <Carousel /> */}
     </section>
   );
 }

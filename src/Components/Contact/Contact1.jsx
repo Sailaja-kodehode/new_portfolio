@@ -3,9 +3,9 @@ import "./contact.css";
 function Contact() {
   return (
     <section className="contact" id="contact">
+      <h2 className="contact_title">Kontakt</h2>
       <div className="contact_container">
         <form className="contact_form">
-          <h2 className="contact">Kontakt</h2>
           <label htmlFor="name" className="contact_form_label">
             Navn
           </label>

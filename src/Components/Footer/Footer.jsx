@@ -14,17 +14,17 @@ function Footer() {
             href="https://github.com/Sailaja-kodehode/"
             target="_blanc"
           >
-            <BsGithub /> github
+            <BsGithub />
           </a>
         </li>
         <hr />
-        <li className="footer_list_item">
+        <li className="footer_list_item_link">
           <a
             className="footer_list_item_link"
             href="https://www.figma.com/file/cjoaVt77sDyxCIwvXOQ2w6/streamingSailaja?node-id=0%3A1&t=BIhjY9yJN2IHEEK8-0"
             target="_blanc"
           >
-            <FaFigma /> FigmaFiles
+            <FaFigma />
           </a>
         </li>
         <hr />
@@ -35,9 +35,11 @@ function Footer() {
             target="_blanc"
           >
             <ImLinkedin />
-            sailaja-posupulate
           </a>
         </li>
+        <p className="footer_list_item">
+          Design og innhold &copy; Sailaja&nbsp;Posupulate 2023
+        </p>
       </ul>
     </div>
   );

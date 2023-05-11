@@ -1,10 +1,9 @@
 .dark {
-  background-color: #c6ac8f;
+  background-color: #a4d0a4;
+  /* color: #5e503f; */
   color: whitesmoke;
-  border-radius: 50px;
 }
 .light {
-  background-color: #ede0d4;
-  color: #7f5539;
-  border-radius: 50px;
+  background-color: #dff9df;
+  color: #5e503f;
 }
