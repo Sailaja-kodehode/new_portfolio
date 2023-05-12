@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.4b79d48e.css",
+    "main.css": "/new_portfolio/static/css/main.2b97ede3.css",
     "main.js": "/new_portfolio/static/js/main.9dd3ccc6.js",
     "static/media/Christmas1.png": "/new_portfolio/static/media/Christmas1.dce4c1b8f044e7c64dec.png",
     "static/media/Sailaja_CV_Feb_2023.pdf": "/new_portfolio/static/media/Sailaja_CV_Feb_2023.b67627092f05c1d511c1.pdf",
@@ -18,11 +18,11 @@
     "static/media/html-5.png": "/new_portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
     "static/media/css-3.png": "/new_portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
     "index.html": "/new_portfolio/index.html",
-    "main.4b79d48e.css.map": "/new_portfolio/static/css/main.4b79d48e.css.map",
+    "main.2b97ede3.css.map": "/new_portfolio/static/css/main.2b97ede3.css.map",
     "main.9dd3ccc6.js.map": "/new_portfolio/static/js/main.9dd3ccc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b79d48e.css",
+    "static/css/main.2b97ede3.css",
     "static/js/main.9dd3ccc6.js"
   ]
 }
