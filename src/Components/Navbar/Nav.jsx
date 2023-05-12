@@ -64,9 +64,9 @@ class Navbar extends Component {
           </div>
 
           <div id="toggle" onClick={this.handleClick}>
-            <i id="bar" className={this.handleClick}>
-              <GiHamburgerMenu />
-            </i>
+            {/* <i id="bar" className={this.handleClick}> */}
+            <GiHamburgerMenu />
+            {/* </i> */}
           </div>
         </nav>
       </>

@@ -29,7 +29,7 @@
   width: 300px;
 }
 h2 {
-  color: #ff5961;
+  color: #5e503f;
   padding: 20px;
   text-align: center;
   font-size: 35px;
@@ -80,5 +80,10 @@ h2 {
 @media screen and (max-width: 360px) {
   .contact {
     padding-top: 150px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact {
+    padding-top: 200px;
   }
 }

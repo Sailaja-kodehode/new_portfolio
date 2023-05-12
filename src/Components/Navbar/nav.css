@@ -41,7 +41,7 @@ nav {
 #navbar li a:hover::after,
 #navbar li a.active::after {
   content: "";
-  width: 30%;
+  width: 15%;
   height: 2px;
   background-color: #ff5961;
   /* background: #7f5539; */
@@ -91,12 +91,10 @@ nav {
 
   #toggle {
     display: block;
+    width: 40px;
     color: #fff;
     position: fixed;
     margin-left: 65%;
-  }
-
-  #toggle i {
     font-size: 25px;
     margin-right: 30px;
     cursor: pointer;
