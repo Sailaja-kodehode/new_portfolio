@@ -35,7 +35,8 @@ nav {
 }
 #navbar li a:hover,
 #navbar li a.active {
-  color: green;
+  /* color: green; */
+  color: #5e503f;
 }
 
 #navbar li a:hover::after,
@@ -43,7 +44,8 @@ nav {
   content: "";
   width: 15%;
   height: 2px;
-  background-color: #ff5961;
+  /* background-color: #ff5961; */
+  background-color: green;
   /* background: #7f5539; */
   position: absolute;
   bottom: -4px;

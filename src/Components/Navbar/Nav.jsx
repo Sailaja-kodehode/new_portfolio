@@ -32,11 +32,7 @@ class Navbar extends Component {
               className={this.state.clicked ? "#navbar active" : "#navbar"}
             >
               <li className="nav_ul_li">
-                <a
-                  className="active"
-                  href="index.html#home"
-                  onClick={this.handleClick}
-                >
+                <a href="index.html#home" onClick={this.handleClick}>
                   <FaHome />
                   Home
                 </a>
