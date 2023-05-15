@@ -24,13 +24,13 @@ const ThemeToggle = () => {
   const themeIsLight = icon === "BsMoonFill";
   const Icon = themeIsLight ? (
     <BsSun
-      className="light"
+      className="lightTheme"
       size={icon_size}
       onClick={() => changeTheme("BsSun ")}
     />
   ) : (
     <BsMoonFill
-      className="dark"
+      className="darkTheme"
       size={icon_size}
       onClick={() => changeTheme("BsMoonFill")}
     />

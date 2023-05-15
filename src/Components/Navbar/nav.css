@@ -35,7 +35,6 @@ nav {
 }
 #navbar li a:hover,
 #navbar li a.active {
-  /* color: green; */
   color: #5e503f;
 }
 

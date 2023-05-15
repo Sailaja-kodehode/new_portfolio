@@ -49,38 +49,38 @@ export default function Home() {
 
       <section className="skills_container">
         {/* HTML5 */}
-        <figure>
+        <div>
           <img className="skills_image" src={html} alt="my pic" />
-          <figcaption> HTML5</figcaption>
-        </figure>
-        <figure>
+          <p> HTML5</p>
+        </div>
+        <div>
           <img className="skills_image" src={css} alt="my pic" />
-          <figcaption> CSS</figcaption>
-        </figure>
-        <figure>
+          <p> CSS</p>
+        </div>
+        <div>
           <img className="skills_image" src={js} alt="my pic" />
-          <figcaption> Java Script</figcaption>
-        </figure>
-        <figure>
+          <p> Java Script</p>
+        </div>
+        <div>
           <img className="skills_image" src={react} alt="my pic" />
-          <figcaption> React</figcaption>
-        </figure>
-        <figure>
+          <p> React</p>
+        </div>
+        <div>
           <img className="skills_image" src={sql} alt="my pic" />
-          <figcaption> Sql</figcaption>
-        </figure>
-        <figure>
+          <p className="sql"> Sql</p>
+        </div>
+        <div>
           <img className="skills_image" src={node} alt="my pic" />
-          <figcaption>Node Js</figcaption>
-        </figure>
-        <figure>
+          <p>Node Js</p>
+        </div>
+        <div>
           <img className="skills_image" src={figma} alt="my pic" />
-          <figcaption>Figma</figcaption>
-        </figure>
-        <figure>
+          <p>Figma</p>
+        </div>
+        <div>
           <img className="skills_image" src={github} alt="my pic" />
-          <figcaption>Github</figcaption>
-        </figure>
+          <p>Github</p>
+        </div>
       </section>
     </header>
   );

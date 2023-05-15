@@ -1,5 +1,4 @@
 import About from "./Components/About/About";
-// import Nav from "./Components/Navbar/Nav";
 import Nav from "./Components/Navbar/Nav";
 import "./index.css";
 import Home from "./Components/Home/Home";

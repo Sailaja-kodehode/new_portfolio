@@ -26,7 +26,7 @@ class Navbar extends Component {
             <img className="nav_logo" src={Image} alt="pic" />
           </a>
 
-          <div>
+          <div className="nav_ul">
             <ul
               id="navbar"
               className={this.state.clicked ? "#navbar active" : "#navbar"}
@@ -60,9 +60,7 @@ class Navbar extends Component {
           </div>
 
           <div id="toggle" onClick={this.handleClick}>
-            {/* <i id="bar" className={this.handleClick}> */}
             <GiHamburgerMenu />
-            {/* </i> */}
           </div>
         </nav>
       </>
