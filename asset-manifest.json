@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.bf27a31d.css",
-    "main.js": "/new_portfolio/static/js/main.3698f8a7.js",
+    "main.css": "/new_portfolio/static/css/main.6fd495b8.css",
+    "main.js": "/new_portfolio/static/js/main.8f0e6134.js",
     "static/media/Christmas1.png": "/new_portfolio/static/media/Christmas1.dce4c1b8f044e7c64dec.png",
-    "static/media/Sailaja_CV_Feb_2023.pdf": "/new_portfolio/static/media/Sailaja_CV_Feb_2023.b67627092f05c1d511c1.pdf",
     "static/media/streaming1.png": "/new_portfolio/static/media/streaming1.f5732d99d372db5d5cc0.png",
     "static/media/img4.png": "/new_portfolio/static/media/img4.00f3ccb794c52292ddfb.png",
     "static/media/pokemon.png": "/new_portfolio/static/media/pokemon.a4e3a9fa293ab53b060f.png",
+    "static/media/Sailaja_CV_03.2023.docx": "/new_portfolio/static/media/Sailaja_CV_03.2023.c7b6c5a8a8d5a08d478c.docx",
     "static/media/quiz1.png": "/new_portfolio/static/media/quiz1.573dbd0341a8b2d44466.png",
     "static/media/logo1.png": "/new_portfolio/static/media/logo1.d141adfa0e1bef2667b9.png",
     "static/media/nodejs.png": "/new_portfolio/static/media/nodejs.007e99f68b718e476aba.png",
@@ -18,11 +18,11 @@
     "static/media/html-5.png": "/new_portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
     "static/media/css-3.png": "/new_portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
     "index.html": "/new_portfolio/index.html",
-    "main.bf27a31d.css.map": "/new_portfolio/static/css/main.bf27a31d.css.map",
-    "main.3698f8a7.js.map": "/new_portfolio/static/js/main.3698f8a7.js.map"
+    "main.6fd495b8.css.map": "/new_portfolio/static/css/main.6fd495b8.css.map",
+    "main.8f0e6134.js.map": "/new_portfolio/static/js/main.8f0e6134.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf27a31d.css",
-    "static/js/main.3698f8a7.js"
+    "static/css/main.6fd495b8.css",
+    "static/js/main.8f0e6134.js"
   ]
 }
