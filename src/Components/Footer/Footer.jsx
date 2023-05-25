@@ -3,6 +3,7 @@ import "./footer.css";
 import { BsGithub } from "react-icons/bs";
 import { FaFigma } from "react-icons/fa";
 import { ImLinkedin } from "react-icons/im";
+import { SiGmail } from "react-icons/si";
 
 function Footer() {
   return (
@@ -28,10 +29,20 @@ function Footer() {
           </a>
         </li>
         <hr />
+        <li className="footer_list_item_link">
+          <a
+            className="footer_list_item_link"
+            href="sailaja.kodehode@gmail.com"
+            target="_blanc"
+          >
+            <SiGmail />
+          </a>
+        </li>
+        <hr />
         <li className="footer_list_item">
           <a
             className="footer_list_item_link"
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/sailaja-posupulate-1436781a/"
             target="_blanc"
           >
             <ImLinkedin />

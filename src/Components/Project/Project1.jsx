@@ -1,7 +1,7 @@
 // Christmas project back time count down Using React
 // Github icon import
 import React from "react";
-import "./project.css";
+import "./project1.css";
 import { BsGithub } from "react-icons/bs";
 import { FcBriefcase } from "react-icons/fc";
 // Figma icon
@@ -108,43 +108,45 @@ function Projects() {
         {/*  */}
 
         <img src={img1} alt="" className="projects_image" />
-        <ul className="projects_links">
+
+        <div className="project_container">
           {aboutProject && (
-            <li className="projects_direction">
-              <a href={aboutProject} target="_blank" rel="noreferrer">
-                {/* <p className="projects_description"> */}
-                <FcBriefcase />
-                Description: {aboutProject} {/* </p> */}
-              </a>
-            </li>
+            <a
+              href={aboutProject}
+              target="_blank"
+              rel="noreferrer"
+              className="projects_description"
+            >
+              {/* <p className="projects_description"> */}
+              <FcBriefcase />
+              Description: {aboutProject} {/* </p> */}
+            </a>
           )}
+        </div>
+        <div className="project_container">
           {github && (
-            <li className="project_container">
-              <a
-                href={github}
-                target="_blank"
-                rel="noreferrer"
-                className="project_link"
-              >
-                <BsGithub />
-                <h4 className="projects_direction">Github</h4>
-              </a>
-            </li>
+            <a
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+              className="project_link"
+            >
+              <BsGithub />
+              <h4 className="projects_direction1">Github</h4>
+            </a>
           )}
           {figma && (
-            <li className="project_container">
-              <a
-                href={figma}
-                target="_blank"
-                rel="noreferrer"
-                className="project_link"
-              >
-                <FaFigma />
-                <h4 className="projects_direction">Figma</h4>
-              </a>
-            </li>
+            <a
+              href={figma}
+              target="_blank"
+              rel="noreferrer"
+              className="project_link"
+            >
+              <FaFigma />
+              <h4 className="projects_direction">Figma</h4>
+            </a>
           )}
-        </ul>
+        </div>
       </div>
       {/* </div> */}
       {/* <Carousel /> */}

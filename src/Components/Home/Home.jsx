@@ -9,8 +9,7 @@ import figma from "./../Assets/Gallery/Skills/figma.png";
 import node from "./../Assets/Gallery/Skills/nodejs.png";
 import sql from "./../Assets/Gallery/Skills/sql-server.png";
 import github from "./../Assets/Gallery/Skills/github (1).png";
-
-import cv from "./../Assets/CV/Sailaja_CV_Feb_2023.pdf";
+import cv from "./../Assets/CV/Sailaja_CV_03.2023.docx";
 import "./home.css";
 
 //  Homepage
@@ -32,7 +31,12 @@ export default function Home() {
           {/* two Buttons to link CV and Contact page */}
           <div className="button-link">
             <button className="home_button">
-              <a href="#contact" className="link">
+              <a
+                href="
+#contact"
+                className="link"
+                target="_blanc"
+              >
                 Kontakt
               </a>
             </button>
