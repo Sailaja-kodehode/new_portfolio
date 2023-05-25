@@ -82,6 +82,10 @@
   text-align: left;
   margin-left: 8px;
 }
+.java {
+  text-align: center;
+  margin-left: -10px;
+}
 .link {
   /* color: #ff5961; */
   /* color: rgb(90, 46, 46); */

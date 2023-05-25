@@ -59,15 +59,15 @@ export default function Home() {
         </div>
         <div>
           <img className="skills_image" src={css} alt="my pic" />
-          <p> CSS</p>
+          <p className="sql"> CSS</p>
         </div>
         <div>
           <img className="skills_image" src={js} alt="my pic" />
-          <p> Java Script</p>
+          <p className="java"> Java Script</p>
         </div>
         <div>
           <img className="skills_image" src={react} alt="my pic" />
-          <p> React</p>
+          <p className="sql"> React</p>
         </div>
         <div>
           <img className="skills_image" src={sql} alt="my pic" />
