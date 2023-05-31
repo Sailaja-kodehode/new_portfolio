@@ -32,26 +32,42 @@ class Navbar extends Component {
               className={this.state.clicked ? "#navbar active" : "#navbar"}
             >
               <li className="nav_ul_li">
-                <a href="index.html#home" onClick={this.handleClick}>
+                <a
+                  href="index.html#home"
+                  onClick={this.handleClick}
+                  className="nav_link"
+                >
                   <FaHome />
                   Home
                 </a>
               </li>
               <li className="nav_ul_li">
-                <a href="#about" onClick={this.handleClick}>
+                <a
+                  href="#about"
+                  onClick={this.handleClick}
+                  className="nav_link"
+                >
                   <BsPerson />
                   Om Meg
                 </a>
               </li>
               <li className="nav_ul_li">
-                <a href="#projects" onClick={this.handleClick}>
+                <a
+                  href="#projects"
+                  onClick={this.handleClick}
+                  className="nav_link"
+                >
                   {" "}
                   <MdOutlineBrightness7 />
                   Prosjekter
                 </a>
               </li>
               <li className="nav_ul_li">
-                <a href="#contact" onClick={this.handleClick}>
+                <a
+                  href="#contact"
+                  onClick={this.handleClick}
+                  className="nav_link"
+                >
                   <BsTelephoneInbound />
                   Kontakt
                 </a>

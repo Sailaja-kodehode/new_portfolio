@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="footer">
       <ul className="footer_list">
-        <li className="footer_list_item">
+        <li className="footer_list_item_link">
           <a
             className="footer_list_item_link"
             href="https://github.com/Sailaja-kodehode/"
@@ -39,7 +39,7 @@ function Footer() {
           </a>
         </li>
         <hr />
-        <li className="footer_list_item">
+        <li className="footer_list_item_link">
           <a
             className="footer_list_item_link"
             href="https://www.linkedin.com/in/sailaja-posupulate-1436781a/"
