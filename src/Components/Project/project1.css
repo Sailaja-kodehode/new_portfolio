@@ -1,15 +1,16 @@
 .projects {
   /* height: 100vh; */
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 .projects_container {
-  /* max-width: 800px; */
-  height: 600px;
+  max-width: 700px;
+  /* height: 600px; */
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -17,10 +18,11 @@
   /* background-color: #ede0d4; */
   border-radius: 5px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-  border: 1px solid burlywood;
+  border: 1px solid #b3b3b3;
 }
 .projects_title {
-  color: #5e503f;
+  color: #142d4c;
+  /* color: #5e503f; */
   padding: 20px;
   text-align: center;
   font-size: 35px;
@@ -33,21 +35,22 @@
 .projects_button {
   border: none;
   cursor: pointer;
-  color: #5e503f;
+  color: #b3b3b3;
   width: 65%;
   border-radius: 5px;
   font-size: 15px;
   padding: 10px;
   border-radius: 5px;
-  background-color: #e0b089;
+  /* background-color: #5e503f; */
+  background-color: #142d4c;
 }
 .projects_title:hover {
-  color: green;
+  color: #3a4856;
   cursor: pointer;
 }
 .projects_button-active {
-  background-color: white;
-  color: green;
+  background-color: #b3b3b3;
+  color: #142d4c;
 }
 .projects_button :hover {
   color: #3a4854;
@@ -70,7 +73,8 @@
   height: 200px;
   text-align: justify;
   text-decoration: none;
-  color: #7f5539;
+  /* color: #5e503f; */
+  color: #142d4c;
   list-style: none;
 }
 .project_link {
@@ -84,11 +88,9 @@
   width: 80px;
   gap: 5px;
   margin-top: -40px;
-  color: #5e503f;
-  /* color: white; */
-  /* padding: 10px; */
+  color: #b3b3b3;
   list-style-type: none;
-  background: #e0b089;
+  background-color: #142d4c;
 }
 
 .projects_direction {
@@ -106,7 +108,7 @@
 }
 .projects_direction a {
   text-decoration: none;
-  color: #7f5539;
+  color: #b3b3b3;
 }
 
 @media screen and (min-width: 1024px) {
@@ -118,12 +120,11 @@
     padding-top: 200px;
   }
   .projects_button-active {
-    background-color: white;
-    color: green;
+    background-color: #b3b3b3;
+    color: #142d4c;
   }
 
   .projects_container {
-    /* background-color: #dff9df; */
     height: 700px;
     color: whitesmoke;
     width: 800px;
@@ -133,8 +134,7 @@
   }
   .projects_title {
     text-align: center;
-    color: #5e503f;
-    /* color: #7f5539; */
+    color: #142d4c;
     font-size: 35px;
   }
   .projects_nav {
@@ -148,14 +148,12 @@
     padding: 5px;
     border: none;
     cursor: pointer;
-    color: #5e503f;
+    color: #b3b3b3;
     border-radius: 5px;
-    /* color: white; */
     width: 52%;
-    background-color: #e0b089;
-    /* background-color: #b08968; */
+    background-color: #142d4c;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #b3b3b3;
   }
   .projects_image {
     display: flex;
@@ -170,7 +168,8 @@
     width: 65%;
     text-align: justify;
     text-decoration: none;
-    color: #7f5539;
+    /* color: #5e503f; */
+    color: #142d4c;
     list-style: none;
   }
 
@@ -189,19 +188,19 @@
   .projects_button {
     border: none;
     cursor: pointer;
-    color: #5e503f;
+    background-color: #b3b3b3;
     width: 65%;
     font-size: 15px;
     padding: 10px;
-    background-color: #e0b089;
+    color: #142d4c;
   }
   .projects_title:hover {
-    color: green;
+    color: #3a4856;
     cursor: pointer;
   }
   .projects_button-active {
-    background-color: white;
-    color: green;
+    color: #b3b3b3;
+    background-color: #142d4c;
   }
   .projects_button :hover {
     color: #3a4854;

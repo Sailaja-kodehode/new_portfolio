@@ -5,7 +5,8 @@ import { BsPerson } from "react-icons/bs";
 import { Component } from "react";
 import { MdOutlineBrightness7 } from "react-icons/md";
 import { BsTelephoneInbound } from "react-icons/bs";
-import Image from "./../Assets/Profile/logo1.png";
+import { GiFiles } from "react-icons/gi";
+import Image from "./../Assets/Profile/logo.png";
 import Theme from "./Theme";
 
 class Navbar extends Component {
@@ -32,11 +33,7 @@ class Navbar extends Component {
               className={this.state.clicked ? "#navbar active" : "#navbar"}
             >
               <li className="nav_ul_li">
-                <a
-                  href="index.html#home"
-                  onClick={this.handleClick}
-                  className="nav_link"
-                >
+                <a href="#home" onClick={this.handleClick} className="nav_link">
                   <FaHome />
                   Home
                 </a>
@@ -60,6 +57,17 @@ class Navbar extends Component {
                   {" "}
                   <MdOutlineBrightness7 />
                   Prosjekter
+                </a>
+              </li>
+              <li className="nav_ul_li">
+                <a
+                  href="#skills"
+                  onClick={this.handleClick}
+                  className="nav_link"
+                >
+                  {" "}
+                  <GiFiles />
+                  Ferdigheter
                 </a>
               </li>
               <li className="nav_ul_li">

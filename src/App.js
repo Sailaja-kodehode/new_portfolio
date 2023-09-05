@@ -4,7 +4,7 @@ import "./index.css";
 import Home from "./Components/Home/Home";
 import Contact from "./Components/Contact/Contact1";
 import Project from "./Components/Project/Project1";
-// import Skill from "./Components/Skills/Skills";
+import Skill from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Home />
       <About />
-      {/* <Skill /> */}
+      <Skill />
       <Project />
       <Contact />
       <Footer />
